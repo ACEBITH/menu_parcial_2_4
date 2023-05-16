@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNO SODIACAL</title>
+    <link rel="stylesheet" href="Estilo.css.css">
+    <script src="App.js"></script>
+
+</head>
+<body>
+    <h1>
+        SELEXINA BALORES 
+    </h1>
+    <H2>
+        DIA
+    </H2>
+    <input type="range" onchange="cambiar()" value="0" min="0" max="100" id="v">
+    <h1 id="valor">0</h1>
+    <script>
+      const cambiar=()=>{
+        document.querySelector("#valor").innerHTML=document.querySelector("#v").value;
+      }
+    </script>
+    <h1>mes
+    <div class="container-fluid text-center">
+        <select name=""id="m">
+            <option value="Enero">Enero</option>
+            <option value="Febrero">febrero</option>
+            <option value="Marso">Marso</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio<JULIO/option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubtre">Octubtre</option>
+            <option value="Nobiembre">Nobiembre</option>
+            <option value="Diciembre">Diciembre</option>
+            </select>
+            </h1>
+            <div>
+                <div class="card w-25 m-4"><h1>feca de nacimiento</h1></div>
+                <div class="card w-25 m-4"><h1>SIGNO</h1></div>
+                    <script src="App.js"></script>
+</body>
+</html>
